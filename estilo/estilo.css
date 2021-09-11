@@ -1,0 +1,168 @@
+
+* {
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+@font-face {
+	font-family: "Montserrat-Bold";
+	src: url('../fonts/montserrat/Montserrat-Bold.ttf');
+}
+
+header {
+	background: url('../imagem/istockphoto-1177154915-612x612.jpg') center no-repeat;
+	background-size: cover;
+	height: 650px;
+	
+}
+header div {
+	max-width: 707px;
+	width: 100%;
+	margin: 0 auto;
+}
+header div .menu{
+	
+	padding: 15px;
+	
+}
+header div .menu ul{
+	display: flex;
+	list-style: none;
+
+}
+header div .menu ul li {
+	padding-right: 4px;
+	
+}
+header div .menu ul li:hover{
+	border-bottom: 1px solid #000;
+	
+}
+
+header div .menu ul li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: "Montserrat-Bold";
+	font-size: 0.8rem;
+	color: white;
+}
+
+header div .descricao {
+	padding-top:30%;
+	color: white;
+	font-family: "Montserrat-Bold";
+}
+header div .descricao p {
+	font-style: italic;
+	font-size: 1.5rem;
+	font-family: monospace;
+}
+header div .descricao h2 {
+	font-size: 2.76rem;
+}
+.primeira_section {
+	margin-top: 40px;
+	height: 650px;
+
+	
+}
+
+.primeira_section div {
+	max-width: 707px;
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 100px;
+	
+	font-family: "Montserrat-Bold";
+}
+/*.primeira_section div h3{
+	width: 100%;
+}*/
+.primeira_section div h2 {
+	
+	font-size: 2.76rem;
+	text-align: center;
+	padding: 10px 10px 10px 10px;
+}
+.primeira_section div p {
+	padding: 20px;
+	font-size: 2.0rem;
+	font-family: monospace;
+	line-height: 1.5;
+}
+
+.segunda_section {
+	margin-top: 40px;
+	height: 650px;
+	line-height: 25px;
+	background: url('../imagem/books-2596809__340.jpg') center no-repeat;
+	background-size: cover;
+
+}
+.segunda_section .modulos {
+	max-width: 707px;
+	width: 100%;
+	margin: 0 auto;
+
+	z-index: 2;
+	font-family: "Montserrat-Bold";
+	color: white;
+	padding: 100px;
+}
+
+.segunda_section .modulos h2{
+	text-align: center;
+	font-size: 2.76rem;
+	margin-bottom: 10px;
+	z-index: 1;
+}
+
+.segunda_section .modulos .primeiro_semestre h3 {
+	border-bottom: 1px solid #000;
+	cursor: pointer;
+	border-top: 1px solid #000;
+}
+.segunda_section .modulos .segundo_semestre h3 {
+	border-bottom: 1px solid #000;
+
+}
+.segunda_section .modulos .segundo_semestre{
+	cursor: pointer;	
+}
+
+.segunda_section .modulos .primeiro_semestre ul{
+	list-style: none;
+	margin-left: 15px;
+	
+}
+.segunda_section .modulos .primeiro_semestre ul li{
+	border-bottom: 1px solid #e6e6e6;
+	cursor: pointer;
+}
+
+.segunda_section .escuro {
+	
+
+}
+.segunda_section .modulos .primeiro_semestre .ocultar{
+	display: none;
+}
+footer div{
+	max-width: 707px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 20px;
+	font-family: "Montserrat-Bold";
+}
+
+footer {
+	margin-top: 50px;
+
+	color: black;
+	
+}
